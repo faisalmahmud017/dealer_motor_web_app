@@ -1,0 +1,178 @@
+* {
+  font-family: "Trebuchet MS";
+}
+body{
+  background: #e0e0e0;
+}
+#header
+{
+    background: #11233b;
+    height      : 15%;
+    text-align  : center;
+    padding-top : 20px;
+    color : white;
+    font-size   : 1.5em;
+}
+#sidebar
+{
+    float       : left;
+    height      : auto;
+    width       : 15%;
+    font-size   : 1.5em;
+    padding-top : 20px;
+}
+#content
+{
+    background  : #f7f7f7;  
+    float       : right;
+    width       : 85%;
+    height      : auto;
+    font-size   : 1.5em;
+    text-align  :center;
+    padding-top : 20px;
+    padding-bottom: 60px;
+}
+#footer
+{
+    clear       : both;
+    font-size   : 1.5em;
+    text-align  :center;
+    margin-top  : 15px;
+}
+
+* {
+    font-family: "Trebuchet MS";
+  }
+  h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+    
+  }
+table {
+  width: 90%;
+  height: auto;
+  margin: 10px auto 10px auto;
+}
+table thead th {
+    background-color: #11233b;
+    color: #ffffff;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+}
+table tbody td {
+    color: #333;
+    padding: 10px;
+}
+ul {
+    padding: 0;
+}
+ul il {
+    display:inline-block;
+    padding: 10px 20px;
+    margin: 3px;
+}
+a{
+    background-color: #6A5ACD;
+    text-decoration: none;
+    color: #f7f7f7;
+    padding: 10px;
+}
+.sidebar-pilihan{
+    background-color: #6A5ACD;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    margin: 9px;
+    list-style-type: none;
+}
+.sidebar-pilih{
+    background-color: rgba(105, 90, 205, 0.205);
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    margin: 9px;
+    list-style-type: none;
+}
+
+.gambar-tentang{
+    width: 300px;
+    height: 166.29px;
+}
+
+.icon{
+    width:30px;
+    height: 30px;
+    margin-left: 60px;
+}
+.image{
+    width:400px;
+    height:300px;
+  }
+  #slider {
+    width: 100%;
+    height: 320px;
+    margin: 30px 0 30px 0;
+    overflow: hidden;
+  }
+.slide {
+    width: 450px; /*panjang gambar slide*/
+    height: 300px;
+    float: left;
+    position: relative ;
+    margin: 15px; /*memberi jarak gambar*/
+    border-radius: 9px;
+  }
+
+  #slide-holder {
+    width: 500%;
+    position: relative;
+    float: left;
+    -webkit-animation: scroller 10s infinite; /*memberi waktu slide berjalan selama 10 detk*/
+            animation: scroller 10s infinite;
+  }
+
+  .gambar{ /* style (class) untuk bagian gambar */
+    
+  }
+  
+  .gambar:hover{ /* efek untuk gambar (zoom saat kursor ke gambar) */
+    transform: scale(3); /* zoom 2 kali dari ukuran gambar */
+  }
+  
+  @-webkit-keyframes scroller {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    33% {
+      -webkit-transform: translateX(-400px);
+              transform: translateX(-400px);
+    }
+    66% {
+      -webkit-transform: translateX(-800px);
+              transform: translateX(-800px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+  }
+  
+  @keyframes scroller {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    33% {
+      -webkit-transform: translateX(-400px);
+              transform: translateX(-400px);
+    }
+    66% {
+      -webkit-transform: translateX(-800px);
+              transform: translateX(-800px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+  }

@@ -1,0 +1,6 @@
+1. bikin database dengan nama "dealer"
+2. import file "dealer.sql" ke database
+
+
+username: admin
+password: admin666
